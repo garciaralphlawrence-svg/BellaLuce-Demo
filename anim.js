@@ -97,7 +97,6 @@
       gsap.to(img, { yPercent: -6, ease: 'none', scrollTrigger: { trigger: a, start: 'top bottom', end: 'bottom top', scrub: true } });
     });
     gsap.to('.hifu-col', { yPercent: 40, rotate: 6, ease: 'none', scrollTrigger: { trigger: '.hifu', start: 'top bottom', end: 'bottom top', scrub: true } });
-    gsap.from('.price', { opacity: 0, y: 30, duration: 1.2, ease: E, scrollTrigger: { trigger: '.price', start: 'top 90%' } });
 
     /* hair masks */
     $$('.mask').forEach((m, i) => {
